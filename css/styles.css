@@ -391,7 +391,13 @@ width: 100%;
     height:420px;
     background:  #fff;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.portfolio-item:hover {
+    box-shadow:
+        0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .desc {
@@ -433,7 +439,7 @@ font-weight: 400;
 font-size: 16px;
 position: absolute;
 
- /* line-height: 24px; */
+ line-height: 24px;
 line-height: 150%;
 letter-spacing: 0.02em;
 color: #f4f4fd;
@@ -444,7 +450,6 @@ top: 0;
 width: 100%;
 transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 
 .box-portf{
 border-bottom: 1px solid #e7e9fc;
