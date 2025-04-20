@@ -426,7 +426,8 @@ overflow: hidden;
 }
 .porfolio-item:hover .overlay{
 transform: translateY(0%);
-}
+} 
+
 
 .overlay-text{
 font-weight: 400;
